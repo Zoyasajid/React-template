@@ -158,17 +158,14 @@ width: 48%;
 display: none;
     }
     .textpara{
-        margin-top: 20%;
-        /* margin-left: 10px; */
+        margin-top: 53%;
         text-align: center;
         margin-right: 1px;
-        /* background-color: blue; */
         color: #FFFFFF;
     }
     .textpara h2{
         font-family:cursive;
         margin-right: 0;
-        /* margin:20px; */
         font-size: 2.5rem;
         font-weight: 500;
     }
@@ -202,19 +199,15 @@ display: none;
         margin-left: 13px;
     }
     .scroll-div{
-        margin-top: 37%;
+        margin-top: 28%;
     
     }
     .scroll{
-        /* display: flex; */
-        /* align-items: center; */
         text-align: center;
         font-size: 10px;
         font-weight: 300;
         color: #fff;
-    
-        /* margin-bottom:2px; */
-    }
+        }
     .les{
         margin-top: -9px;
     }
