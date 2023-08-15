@@ -1,0 +1,166 @@
+.amount{
+    height: 90vh;
+    background-color: black;
+    align-items: center;
+}
+.amount2{
+    height: 80vh;
+    width: 100%;
+    background-image: url('./image/Mint\ Bg.png');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+}
+.amount-form{
+    background-color: black;
+    width:40%;
+    height: 60vh;
+    text-align: center;
+    color: antiquewhite;
+    /* align-items: center; */
+    /* margin: 20%; */
+}
+.level{
+    border-bottom: 1px solid burlywood;
+}
+.level h3{
+    color: #FFF;
+    text-shadow: 0px 0px 3.5px #FFF;
+    font-family: Walter Turncoat;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 2.85px;
+}
+.level-Flex{
+    display: flex;
+    margin-top: -15px;
+    justify-content: space-evenly;
+}
+.level-Flex h5{
+    color: #FFF;
+font-family: Mariupol;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+margin-top:13px ;
+line-height: normal;
+letter-spacing: 1.68px;
+text-transform: capitalize;
+}
+.level-Flex p{
+    color: #C69141;
+    font-family: Mariupol;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+
+    line-height: normal;
+    letter-spacing: 1.68px;
+    text-decoration-line: underline;
+    text-transform: uppercase;}
+    .buy{
+        display: flex;
+        border-bottom: 1px solid burlywood;
+height: 11vh;
+align-items: center;
+width: 100%;
+        justify-content: space-around;
+        font-size: 14px;
+    }
+    .buy h5{
+        letter-spacing: 1.68px;
+        color: #C69141;
+                /* margin-left: -35px; */
+
+    }
+    .buy h3{
+                        margin-left: 42px;
+
+    }
+    .buy input{ 
+        width: 23%;
+height:3.8vh;
+background-color: transparent;
+border: 1px solid gray;
+
+    }
+    .token{
+        display: flex;
+        justify-content: space-around;
+        font-size:19px;
+        height: 12vh;
+        align-items: center;
+        border-bottom: 1px solid burlywood;
+
+    }
+    .token2{
+        display: flex;
+        justify-content: space-around;
+        font-size:19px;
+        /* height: 12vh; */
+        align-items: center;
+        /* border-bottom: 1px solid burlywood; */
+    }
+    .total button{
+        background-color: #C69141;
+        padding: 16px;
+        padding-left: 30%;
+        padding-right:30% ;
+        font-family:Mariupol ;
+        font-size: 19px;
+        font-weight: 700;
+        line-height:15.41px;
+        letter-spacing: 12%;
+
+    }
+@media (max-width:700px) {
+    
+    .amount-form{
+        background-color: black;
+        width:75%;
+        height: auto;
+        text-align: center;
+      
+    }
+    h5{
+        font-size: 10px;
+
+    }
+    .buy{
+        display: block;
+        border-bottom: 1px solid burlywood;
+    }
+ 
+    .buy h3{
+            margin-left: 1px;
+
+    }
+    .buy input{ 
+        width: 23%;
+        background-color: transparent;
+        border: 1px solid grey;
+height:3.8vh;
+/* display: flex; */
+/* justify-content: space-around; */
+
+    }
+    .level-Flex{
+        display: block;
+        /* margin-top: -15px; */
+        /* justify-content: space-evenly; */
+    }
+    button{
+    width: 100%;
+
+    }
+    .token2{
+        display: block;
+        height: auto;
+    }
+    .token{
+        display: block;
+
+    }
+}

@@ -1,0 +1,116 @@
+
+.road{
+    margin: 5%;
+    /* border: 2px solid yellow; */
+color: white;
+width: 90%;
+/* padding: 10%; */
+}
+.road h1{
+text-align: center;
+font-family: Walter Turncoat
+;
+}
+.work{
+ width: auto;
+/* padding: 3px; */
+margin: 2%;
+margin-top: 2%;
+/* height: 33vh; */
+ /* display: flex; */
+border: 2px solid #F0B750;
+}
+.work p{
+    font-family: Mariupolx ;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 5%;
+}
+.progess{
+    /* width: 100%; */
+    /* background-color: #F0B750; */
+    /* border: 1px solid wheat; */
+    margin: 4px;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    height: 32px;
+}
+.progesscolor{
+    width: 5px;
+    background-color: #F0B750;
+    height: 100%;
+    margin-right: 10px;
+/* padding: 19px; */
+}
+.progesscolor10{
+    width: 10%;
+    background-color: #F0B750;
+    margin-right: 10px;
+height: 100%;
+}
+.progesscolor20{
+    width: 20%;
+    height: 100%;
+    margin-right: 10px;
+
+    background-color: #F0B750;
+
+}
+.progesscolor30{
+    margin-right: 10px;
+    height: 100%;
+
+    background-color: #F0B750;
+    width: 30%;
+}
+.progesscolor50{
+    margin-right: 10px;
+    height: 100%;
+background-color: #F0B750;
+    width: 50%;
+
+}
+.progesscolor70{
+    height: 100%;
+    background-color: #F0B750;
+    margin-right: 10px;
+    width: 70%;
+}
+.progesscolor80{
+    height: 100%;
+    margin-right: 10px;
+    background-color: #F0B750;
+    width: 80%;
+}
+.progesscolor90{
+    background-color: #F0B750;
+    height: 100%;
+    margin-right: 10px;
+    width: 90%;
+}
+.progesscolor100{
+    background-color: #F0B750;
+    height: 100%;
+    margin-right: 10px;
+    width: 100%;
+}
+.work h3{
+
+    font-family: Mariupolx ;
+    font-size: 24px; 
+    font-weight:700;
+    line-height: 23px;
+    letter-spacing: 5%;
+  
+}
+.part {
+ padding: 5%;
+   
+}
+@media (max-width:700px) {
+    .work{
+        margin-top: 7%;
+    }
+}

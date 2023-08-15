@@ -3,6 +3,7 @@ import logo from "./pic/Logo.png"
 import pic4 from "./pic/Frame184.png"
 import pic2 from "./pic/twitter.png"
 import pic3 from "./pic/game.png" 
+import {GiHamburgerMenu} from 'react-icons/gi'
 function Navbar() {
     return (
       <nav className='nav'>
@@ -27,6 +28,7 @@ function Navbar() {
   <img className='b-pic' src={pic4} alt='board'/>
              </div>
         </div>
+             {/* <div className='GiHamburgerMenu' onClick={showtoggle}><GiHamburgerMenu/></div> */}
         </nav>
     )
   }

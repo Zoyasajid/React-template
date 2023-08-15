@@ -1,0 +1,109 @@
+.team{
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.team-div{
+    border: 2px solid gold;
+    height: 70vh;
+    
+    margin-bottom: 50px ;
+    width: 90%;
+   
+    text-align: center;
+}
+.text{
+    height: 20vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    color: #fff;
+}
+.text{
+    font-family: cursive;
+}
+.text p{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.team-flex{
+    height: auto;
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.team-card{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 2px solid yellow; */
+    height: 290px;
+    color: #fff;
+}
+.pic-cards{
+    width: 190px;
+    height: 180px;
+    flex: 1 1 30%; /* Grow, shrink, basis */
+  margin: 5px;
+}
+.team-card h3{
+    margin-top: -8%;
+    font-family: cursive;
+
+}
+.team-card p{
+    margin-top: -6%;
+    margin: 8px;
+}
+@media (max-width:700px) {
+    .team-flex{
+        height: auto;
+        width: 94%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 3%;
+        padding-right: 3%;
+        /* margin-top: 31%; */
+        /* border: 2px solid chartreuse; */
+    }
+    .team-div{
+        border: 2px solid gold;
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .team-card h3{
+        margin-top: -8%;
+        /* font-family: cursive; */
+    font-size: 12px;
+    }
+    .team-card{
+        width: 80%;
+    }
+
+    .team-card p{
+        margin-top:3%;
+
+    }
+    .text{
+        height: auto;
+    }
+    .pic-cards{
+        width:200px;
+        height: 140px;
+        flex: 1 1 30%; /* Grow, shrink, basis */
+      margin: 3px;
+    }
+}

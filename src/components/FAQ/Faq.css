@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+}
+.faq{
+    margin: 5%;
+    /* background-color: black; */
+    /* border: 2px solid brown; */
+    color: aliceblue;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+}
+.faq h1{
+    color: #FFF;
+    text-shadow: 0px 0px 3.5px #FFF;
+    font-family: Walter Turncoat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: 142.115%; /* 42.634px */
+    letter-spacing: 2.85px;
+    text-transform: uppercase;}
+.par h4{
+    color: #F0B750;
+    /* text-align: justify; */
+    font-family: Mariupol;
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 500;
+    line-height: 22px; /* 137.5% */
+    letter-spacing: 0.8px;  
+}
+.para h4{
+    color: #F0B750;
+    /* text-align: justify; */
+    font-family: Mariupol;
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 500;
+    line-height: 22px; /* 137.5% */
+    letter-spacing: 0.8px;
+}
+.par{
+    height: auto;
+    /* display: flex; */
+    border-bottom:1px solid #F0B750;
+}
+.para {
+    height: auto;
+    display: flex;
+    border-bottom:0.4px solid #F0B750;
+    justify-content: space-between;
+}
+.para h3{
+    /* justify-content: flex-end; */
+    /* align-items: end; */
+    /* text-align: end; */
+}
+.para p{
+    color: #fff;
+    /* text-align: justify; */
+    font-family: Mariupol;
+    font-size: 16px;
+    line-height: 22px; /* 137.5% */
+    letter-spacing: 0.8px;
+}
+hr{
+    margin-top: 40px;
+    /* width: 100%; */
+    font-size: 12px;
+    color: #F0B750;
+}
+.icon {
+    margin-left: 12px;
+    margin-top: 29px;
+}
+.icon2 {
+    margin-left: 2px;
+    margin-top: 29px;
+}
+.ic{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* background-color: #F0B750; */
+}
+.lop{
+    margin-left: 34px;
+    text-align: center;
+}
