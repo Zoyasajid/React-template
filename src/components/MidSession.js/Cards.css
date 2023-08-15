@@ -80,7 +80,8 @@
   }
   
   .img {
-    width: 50%;
+    width: 100px;
+
     max-width: 200px; /* Adjust this as needed */
   }
   

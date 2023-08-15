@@ -73,22 +73,24 @@ import 'slick-carousel/slick/slick-theme.css';
 import './Cards.css';
 
 const images = [
- <img src={require('./pic/MetaMoos/0028.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoose/0160.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoose/0174.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoose/3555.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoose/3567.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoose/5402.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoose/8834.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoose/8881.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoos/0006.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoos/0027.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoos/0028.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoos/0029.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoos/0031.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoos/0160.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoos/8880.png')} alt="fireSpot" className="pic-grid"/>,
- <img src={require('./pic/MetaMoos/8881.png')} alt="fireSpot" className="pic-grid"/>
+ require('./pic/MetaMoos/0028.png'),
+ require('./pic/MetaMoose/0160.png'),
+ require('./pic/MetaMoose/0174.png'),
+ require('./pic/MetaMoose/3555.png'),
+ require('./pic/MetaMoose/3567.png'),
+ require('./pic/MetaMoose/5402.png'),
+
+ require('./pic/MetaMoos/0006.png'),
+ require('./pic/MetaMoos/0028.png'),
+ require('./pic/MetaMoos/0029.png'),
+ require('./pic/MetaMoos/0031.png'),
+ require('./pic/MetaMoos/8880.png'), 
+ require('./pic/MetaMoos/8881.png'),
+ require('./pic/MetaMoose/0160.png'),
+ require('./pic/MetaMoose/0174.png'),
+ require('./pic/MetaMoose/3555.png'),
+ require('./pic/MetaMoose/3567.png'),
+ require('./pic/MetaMoose/5402.png'),
 
 ];
 
@@ -117,5 +119,31 @@ const Cards = () => {
                 }
             }
         ]
-    }}
+
+    }
+    return(
+    <div className="slider-container">
+    <div className="row">
+        <Slider {...settings}>
+            {images.slice(0, images.length / 2).map((image, index) => (
+                <div key={index} className="slide">
+                    <img className='img'  src={image} alt={`Image ${index + 1}`} />
+                </div>
+            ))}
+        </Slider>
+    </div>
+    <div className="row">
+        <Slider {...settings}>
+            {images.slice(images.length / 2).map((image, index) => (
+                <div key={index} className="slide">
+                    <img src={image} alt={`Image ${index + 1}`} />
+                </div>
+            ))}
+        </Slider>
+    </div>
+</div>
+
+    )
+    
+    }
     export default Cards
